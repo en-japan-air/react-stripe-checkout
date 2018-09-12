@@ -11,6 +11,11 @@
     "build": "mkdir -p dist; ./node_modules/.bin/babel StripeCheckout.js --out-file ./dist/main.js",
     "version": "npm run build"
   },
+  "files": [
+    "*.js",
+    "*.ts",
+    "dist/**"
+  ],
   "babel": {
     "presets": [
       "es2015",
